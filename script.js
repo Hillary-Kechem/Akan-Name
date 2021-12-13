@@ -17,12 +17,50 @@ function getGender() {
 
 function getAkan() {
   var genders = document.getElementById("genders");
-  switch(males)
+  switch(genders){
+    case "male":
   if (daysofWeek[0]) {
-    alert("Your akan name is +" males[0])
-    }else if{daysofWeek[1]]{
-      
-    }
-
-    }
+    alert("Your name is" +males[0]);
+  } 
+  else if(daysofWeek[1]) {
+    alert("Your name is" +males[1]);
+  } 
+  else if(daysofWeek[2]) {
+    alert("Your name is" +males[2]);
   }
+  else if(daysofWeek[3]) {
+    alert("Your name is" +males[3]);
+  }
+  else if(daysofWeek[4]) {
+    alert("Your name is" +males[4]);
+  }
+  else if(daysofWeek[5]) {
+    alert("Your name is" +males[5])
+  }
+  else if(daysofWeek[6]) {
+    alert("Your name is" +males[6])
+  }
+  break;
+  case 'female':
+    if(daysofWeek[0]){
+      alert("Your name is" +females[0]);
+    }
+    else if(daysofWeek[1]){
+      alert("Your name is" +females[1]);
+    }
+    else if(daysofWeek[2]){
+      alert("Your name is" +females[2]);
+    }
+    else if(daysofWeek[3]){
+      alert("Your name is" +females[3]);
+    } 
+    else if(daysofWeek[4]){
+      alert("Your name is" +females[4]);
+    }
+    else if(daysofWeek[5]) {
+      alert("Your name is" +females[5]);
+    }
+    else if(daysofWeek[6]){
+      alert("Your name is" +females[6]);
+    }
+}
