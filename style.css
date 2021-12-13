@@ -31,8 +31,7 @@ li a:hover {
     font-size: 32px;
 }
 input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
+    width: 50%;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -40,7 +39,7 @@ input[type=text], select {
     box-sizing: border-box;
   }
 
-  input[type=submit] {
+input[type=submit] {
     width: 20%;
     background-color: #4CAF50;
     color: black;
@@ -66,6 +65,22 @@ input[type=text], select {
   .landing{
     text-align: center;
     align-self: center;
+    justify-content: center;
+  }
+  .form1{
+    background-image: url(images/africa.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+  }
+  .form1 h1{
+    align-items: center;
+    justify-content: center;
+    Flex:center;
+  }
+  label {
+    padding: 2px;
+    display: flex;
     justify-content: center;
   }
   
