@@ -3,7 +3,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #dddddd;
+  background-color: #45a049;
 }
 
 li {
@@ -22,9 +22,12 @@ li a:hover {
   background-color: #111;
 }
 .container{
-    background-color: black;
+    /*background-image: url(images/africa.jpeg);*/
+    background-color: #dddddd;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 32px;
-    color: white;
+    color: black;
     font-size: 32px;
 }
 input[type=text], select {
@@ -40,7 +43,7 @@ input[type=text], select {
   input[type=submit] {
     width: 20%;
     background-color: #4CAF50;
-    color: white;
+    color: black;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -57,8 +60,8 @@ input[type=text], select {
   footer {
       text-align: center;
       padding: 0;
-      color: white;
-      background-color: #dddddd;
+      color: black;
+      background-color: #45a049;
     }
   .landing{
     text-align: center;
