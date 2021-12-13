@@ -14,58 +14,48 @@
     <div class="container">
       <div class="landing">
         <h1>Akan Names</h1>
-        <p>In Ghanian culture, many factors are at work in the naming process and a seemingly simple name can hold someone’s entire biography. A Ghanian name is much more than a simple, functional tag to identify someone, it is a symbol, an emblem. A name can shape a person’s character, mold their social identity, and even influence their destiny. The meaning attached to a name will determine much about the present and the future of a child.</p>
+        <p>In Ghanian culture, many factors are at work in the naming process and a seemingly simple name can hold someone’s
+          entire biography. A Ghanian name is much more than a simple, functional tag to identify someone, it is a symbol,
+          an emblem. A name can shape a person’s character, mold their social identity, and even influence their destiny.
+          The meaning attached to a name will determine much about the present and the future of a child.</p>
       </div>
 
 
-      <div class="akanform">        
-          <h2>Names and their meaning</h2>
-          <p>This table shows Akan names of both genders</p>
-          <div class="tbl">
-
-          </div>
-
-          
-  <form id="akanForm" onSubmit="getAkan">
-    <p id="output"</p>
-    <label for="date">Date
-      <input id="date" type="text" name="date" placeholder="00" required>
-    </label> <br>
-
-    <label for="month">Month
-      <input id="month" type="text" name="month" placeholder="MM" required></label> <br>
-
-    <label for="year">Year
-      <input id="year" type="text" name="year" placeholder="yyyy"></label><br>
-
-    <label id="gender">Male
-      <input type="radio" checked="checked" name="radio">
-      <span class="checkmark"></span>
-    </label>
-
-    <label id="gender">Female
-      <input type="radio" name="radio">
-      <span class="checkmark"></span>
-    </label>
-
-    <input class="button" name="submit" type="submit" value="submit" onclick="getAkan()" />
-
-  </form>
+      <div class="akanform">
+        <h2>Names and their meaning</h2>
+        <p>This table shows Akan names of both genders</p>
 
 
 
-  <h1 id=outputName>Akan Names</h1>
-  <p id="Output">Your name is </p>
-</div>
 
 
-</div>
-<script src="script.js"></script>
+        <form id="akanForm" onSubmit="getAkan">
+          <p id="output"> </p>
+            <label for="date">Date
+              <input id="date" type="text" name="date" placeholder="00" required>
+            </label> <br>
 
+            <label for="month">Month
+              <input id="month" type="text" name="month" placeholder="MM" required></label> <br>
 
-    
+            <label for="year">Year
+              <input id="year" type="text" name="year" placeholder="yyyy"></label><br>
 
+            <label id="genders">Male
+              <input type="radio" checked="checked" name="radio">
+              <span class="checkmark"></span>
+            </label>
 
+            <label id="genders">Female
+              <input type="radio" name="radio">
+              <span class="checkmark"></span>
+            </label>
+
+            <input class="button" name="submit" type="submit" value="submit" onclick="getAkan()" />
+
+        </form>
+    </div>
+    <script src="script.js"></script>
   </body>
 
 </html>
