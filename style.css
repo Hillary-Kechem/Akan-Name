@@ -2,6 +2,7 @@
     background-color: black;
     font-size: 32px;
     color: white;
+    font-size: 32px;
 }
 input[type=text], select {
     width: 100%;
@@ -27,3 +28,17 @@ input[type=text], select {
   input[type=submit]:hover {
     background-color: #45a049;
   }
+  #footer{
+    
+    background-color:yellow;
+    
+  }
+  #footer p{
+    align-items: center;
+  }
+  footer {
+      text-align: center;
+      padding: 3px;
+      background-color: DarkSalmon;
+      color: white;
+    }
