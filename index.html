@@ -15,10 +15,10 @@
       <ul>
         <li><a class="active" href="#home">Home</a></li>
         <li><a href="#about">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        
+        <!--<li><a href="#contact">Contact</a></li>-->
+
       </ul>
-      
+
       <div class="landing">
         <h1>Akan Names</h1>
         <p>In Ghanian culture, many factors are at work in the naming process and a seemingly simple name can hold someone’s
@@ -31,13 +31,59 @@
       <div class="akanform">
         <h2>Names and their meaning</h2>
         <p>This table shows Akan names of both genders</p>
+        <table class="table table-striped table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Day </th>
+              <th scope="col">Male</th>
+              <th scope="col">Female</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Sunday</th>
+              <td>Kwasi</td>
+              <td>Akosua</td>
+            </tr>
+            <tr>
+              <th scope="row">Monday</th>
+              <td>Kwadwo</td>
+              <td>Adowo</td>
+            </tr>
+            <tr>
+              <th scope="row">Tuesday</th>
+              <td>Bena</td>
+              <td>Abennaa</td>
+            </tr>
+            <tr>
+              <th scope="row">Wednesday</th>
+              <td>Kwaku</td>
+              <td>Akua</td>
+            </tr>
+            <tr>
+              <th scope="row">Thursday</th>
+              <td>Yaw</td>
+              <td>Yaa</td>
+            </tr>
+            <tr>
+              <th scope="row">Friday</th>
+              <td>Kofi</td>
+              <td>Afua</td>
+            </tr>
+            <tr>
+              <th scope="row">Saturday</th>
+              <td>Kwame</td>
+              <td>Ama</td>
+            </tr>
+          </tbody>
+        </table>
 
-
-
-
-
-        <form id="akanForm" onSubmit="getAkan">
-          <p id="output"> </p>
+        <br>
+        <h1>Akan Finder</h1>
+        <p>Please submit your name to find the meaning</p>
+        <div class="form1">
+          <form id="akanForm" onSubmit="getAkan">
+            <p id="output"> </p>
             <label for="date">Date
               <input id="date" type="text" name="date" placeholder="00" required>
             </label> <br>
@@ -58,9 +104,11 @@
               <span class="checkmark"></span>
             </label><br>
 
-            <input class="button" name="submit" type="submit" value="submit" onclick="getAkan()" />
+            <input class="button" name="submit" type="submit" value="submit" onclick="output"/>
 
-        </form>
+          </form>
+        </div>
+
         <footer id="footer">
           <div class="name">
             <p>Akan</p>
@@ -68,9 +116,9 @@
             <p>Contacts</p>
           </div>
         </footer>
-    </div>
-    <script src="script.js"></script>
-  
+      </div>
+      <script src="script.js"></script>
+
   </body>
 
 </html>
