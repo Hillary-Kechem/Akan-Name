@@ -13,6 +13,7 @@ function invalidDate() {
   } else if (m > 1 && m < 12) {
     alert("Invalid Month");
   }
+}
 
 
 
@@ -53,21 +54,30 @@ function invalidDate() {
       case 'female':
         if (daysofWeek[0]|| invalidDate) {
           alert("Your name is" + females[0]);
+          document.getElementById("output").textContent = ("Your name is" +getAkan)
         } else if (daysofWeek[1]|| invalidDate) {
           alert("Your name is" + females[1]);
-        } else if (daysofWeek[2]|| invalidDate) {
+          document.getElementById("output").textContent = ("Your name is" +getAkan)
+                  } else if (daysofWeek[2]|| invalidDate) {
           alert("Your name is" + females[2]);
+          document.getElementById("output").textContent = ("Your name is" +getAkan)
         } else if (daysofWeek[3]|| invalidDate) {
           alert("Your name is" + females[3]);
+          document.getElementById("output").textContent = ("Your name is" +getAkan)
         } else if (daysofWeek[4]|| invalidDate) {
           alert("Your name is" + females[4]);
+          document.getElementById("output").textContent = ("Your name is" +getAkan)
         } else if (daysofWeek[5]|| invalidDate) {
           alert("Your name is" + females[5]);
+          document.getElementById("output").textContent = ("Your name is" +getAkan)
         } else if (daysofWeek[6]|| invalidDate) {
           alert("Your name is" + females[6]);
+          document.getElementById("output").textContent = ("Your name is" +getAkan)
         }
         else {
           alert("Please enter a valid day")
         }
     }
+    console.log("")
   }
+  
