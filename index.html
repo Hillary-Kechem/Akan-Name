@@ -26,7 +26,8 @@
           </div>
 
           
-  <form id="akanForm">
+  <form id="akanForm" onSubmit="getAkan">
+    <p id="output"</p>
     <label for="date">Date
       <input id="date" type="text" name="date" placeholder="00" required>
     </label> <br>
@@ -37,12 +38,12 @@
     <label for="year">Year
       <input id="year" type="text" name="year" placeholder="yyyy"></label><br>
 
-    <label id="male">Male
+    <label id="gender">Male
       <input type="radio" checked="checked" name="radio">
       <span class="checkmark"></span>
     </label>
 
-    <label id="female">Female
+    <label id="gender">Female
       <input type="radio" name="radio">
       <span class="checkmark"></span>
     </label>
@@ -51,7 +52,6 @@
 
   </form>
 
-  <button type="submit" class="btn btn-default" onCClick="myName();">Define my name</button>
 
 
   <h1 id=outputName>Akan Names</h1>
