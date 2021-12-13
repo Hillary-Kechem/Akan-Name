@@ -2,6 +2,20 @@ var males= ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi"];
 var females = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 var daysofWeek = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 var genders = ["Male","Female"];
+var d = new Date().toString;
+var m= new month();
+var y= new year();
+     
+
+function invalidDate(){
+  if( d > 1 && d <31){
+    alert("Invalid Date")
+  } else if(m > 1 && m < 12){
+    alert("Invalid Month");
+  }
+
+
+
 
 //Find gender values
 function getGender() {
@@ -19,7 +33,7 @@ function getAkan() {
   var genders = document.getElementById("genders");
   switch(genders){
     case "male":
-  if (daysofWeek[0]) {
+  if (daysofWeek[0] == {
     alert("Your name is" +males[0]);
   } 
   else if(daysofWeek[1]) {
