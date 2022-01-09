@@ -23,7 +23,7 @@
         <h1>Akan Names</h1>
         <p>In Ghanian culture, many factors are at work in the naming process and a seemingly simple name can hold someone’s
           entire biography. A Ghanian name is much more than a simple, functional tag to identify someone, it is a symbol,
-          an emblem. A name can shape a person’s character, mold their social identity, and even influence their destiny.
+          an emblem. A name can shape a person's character, mold their social identity, and even influence their destiny.
           The meaning attached to a name will determine much about the present and the future of a child.</p>
       </div>
 
@@ -83,29 +83,19 @@
         <h1>Akan Finder</h1>
         <p>Please submit your name to find the meaning</p>
         
-          <form id="akanForm" onSubmit="getAkan">
-            <p id="output"> </p>
-            <label for="date">Date
-              <input id="date" type="text" name="date" placeholder="00" required>
-            </label> <br>
+        <form class="myForm">
+          <label for="date">Day:<br><input type="text" id="date" name="date" placeholder="Enter Date of Birth ">
+          </label><br>
+          <label for="Month ">month:<br><input type="text" id="month" name="month" placeholder="Enter Month of Birth ">
+          </label><br>
+          <label for="year">Year:<br><input type="text" id="year" name="year" placeholder="Enter year of Birth ">
+          </label><br>
+          <label for="male"><input type="radio" id="male" name="gender">Male
+          </label><br>
+          <label for="female"><input type="radio" id="female"name="gender">Female
+          </label><br>
 
-            <label for="month">Month
-              <input id="month" type="text" name="month" placeholder="MM" required></label> <br>
-
-            <label for="year">Year
-              <input id="year" type="text" name="year" placeholder="yyyy"></label><br>
-
-            <label id="gendermale">Male
-              <input type="radio" checked="checked" name="radio">
-              <span class="checkmark"></span>
-            </label>
-
-            <label id="genderfemale">Female
-              <input type="radio" name="radio">
-              <span class="checkmark"></span>
-            </label><br><br>
-
-            <input class="button" name="submit" type="submit" value="submit" onclick="output"/>
+            <input style="height: 20px; width: 20px; align-items: center;" class="button" type="button" id="akan">Your akan name</button> 
 
           </form>
         </div>
@@ -117,9 +107,13 @@
           </div>
         </footer>
       </div>
-      <script src="script.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+      
+      </div>
+
 
   </body>
 
